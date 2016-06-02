@@ -10,6 +10,8 @@
 
 .result-img {
   width: 600px;
+  border: 3px solid #42425E;
+  border-radius: 15px;
 }
 
 .has-error {
