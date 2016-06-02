@@ -9,8 +9,13 @@
     <title>Character</title>
   </head>
   <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Which TV-show character are you?</h1>
+        <p>Take this short quiz to find out which TV character you are!</p>
+      </div>
+    </div>
     <div class="container">
-      <h1>Which TV-show character are you?</h1>
       <form id="character">
         <div class="form-group">
           <label for="job">What is your dream job?<label>
@@ -44,15 +49,14 @@
         </div>
         <div class="form-group tv-form-group">
           <label for="watch-tv">Do you <em>even</em> watch TV?<label>
-            <input id="watch-tv" type="text" class="form control">
+            <input id="watch-tv" type="text" class="form-control">
         </div>
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
       <div id="result">
-        <p>
-          You are <span class="result"></span>
-          <img class="result-img" src="" alt="tv-show character" />
-        </p>
+        <h2>Result:</h2>
+        <p>You are <span class="result"></span></p>
+        <img class="result-img" src="" alt="tv-show character" />
       </div>
     </div>
   </body>

@@ -1,7 +1,23 @@
+.jumbotron {
+  background-color: #004d99;
+  color: white;
+}
+
 #result {
   display: none;
+  font-size: 1.5em;
+}
+
+.result-img {
+  width: 600px;
 }
 
 .has-error {
   color: red;
+}
+
+
+
+.form-control {
+  margin-left: 20px;
 }

@@ -13,9 +13,9 @@ $(document).ready(function(){
 
     if (watchTV === "") {
       $(".tv-form-group").addClass("has-error");
-      $(".tv-form-group").append("Please enter something.");
+      $(".tv-form-group").append("<p class='errormsg'>Please enter something.</p>");
     } else if (dreamJob === "Software developer" || place === "Portland"){
-      $(".result").after("... not any of these characters because you're too busy to watch TV.");
+      $(".result").text("... not any of these characters because you're too busy to watch TV.");
       $(".result-img").attr("src", "img/cat.jpg");
       $("#result").show();
     } else if (dreamJob === "US President" || spareTime === "Keep up-to-date on politics" || place === "Washington, DC") {
