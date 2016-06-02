@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Character</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which TV-show character are you?</h1>
+      <form id="character">
+        <div class="form-group">
+          <label for="job">What is your dream job?<label>
+            <select id="job" class="form-control">
+              <option>Best office manager in the world</option>
+              <option>Software developer</option>
+              <option>US president</option>
+              <option>Manager of nuclear power plant</option>
+              <option>Actor</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="place">What's your ideal place to live?<label>
+            <select id="place" class="form-control">
+              <option>Washington, DC</option>
+              <option>New York City</option>
+              <option>Pennsylvania</option>
+              <option>Portland</option>
+              <option>Some small town in America</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="spare-time">What do you like to do in your spare time?<label>
+            <select id="spare-time" class="form-control">
+              <option>Hang out at the local coffee shop</option>
+              <option>Drink beer</option>
+              <option>Write code</option>
+              <option>Keep up-to-date on politics</option>
+              <option>Gossip</option>
+            </select>
+        </div>
+        <div class="form-group tv-form-group">
+          <label for="watch-tv">Do you <em>even</em> watch TV?<label>
+            <input id="watch-tv" type="text" class="form control">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="result">
+        <p>
+          You are <span class="result"></span>
+          <img class="result-img" src="" alt="tv-show character" />
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
