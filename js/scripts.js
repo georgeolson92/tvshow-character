@@ -10,10 +10,13 @@ $(document).ready(function(){
     var burns = "Mr. Burns";
     var joey = "Joey Tribbiani";
     var serena = "Serena van der Woodsen";
+    $(".has-error").removeClass("has-error");
+    $(".errormsg").remove();
 
     if (watchTV === "") {
       $(".tv-form-group").addClass("has-error");
       $(".tv-form-group").append("<p class='errormsg'>Please enter something.</p>");
+
     } else if (dreamJob === "Software developer" || place === "Portland"){
       $(".result").text("... not any of these characters because you're too busy to watch TV.");
       $(".result-img").attr("src", "img/cat.jpg");
